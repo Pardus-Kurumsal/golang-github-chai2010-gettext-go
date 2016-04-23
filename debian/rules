@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_GOPKG := github.com/chai2010/gettext-go
+export DH_GOLANG_EXCLUDES := ${DH_GOPKG}/examples ${DH_GOPKG}/cmd
+export DEB_BUILD_OPTIONS := nocheck
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+

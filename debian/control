@@ -1,0 +1,18 @@
+Source: golang-github-chai2010-gettext-go
+Section: devel
+Priority: extra
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Build-Depends: debhelper (>= 9),dh-golang, golang-go
+Standards-Version: 3.9.5
+Homepage: https://github.com/chai2010/gettext-go
+
+Package: golang-github-chai2010-gettext-go-dev
+Architecture: all
+Conflicts: golang-gettext-go-dev
+Provides: golang-gettext-go-dev
+Breaks: golang-gettext-go-dev
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: A basic GNU's gettext library for Go
+ Package gettext implements a basic GNU's gettext library.
+ .
+ This package contains the source.

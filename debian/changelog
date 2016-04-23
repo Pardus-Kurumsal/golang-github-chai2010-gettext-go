@@ -1,0 +1,6 @@
+golang-github-chai2010-gettext-go (0.0~git20160118) xenial; urgency=low
+
+  [ Deepin Packages Builder ]
+  * build with golang 1.5.1 
+
+ -- lilongyu <leaeasy@gmail.com>  Sat, 23 Apr 2016 22:03:26 +0800
